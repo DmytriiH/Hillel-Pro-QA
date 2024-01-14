@@ -18,10 +18,10 @@
 // } else if (isNaN(userAge)) {
 //     console.log("Будь ласка введіть Ваш вік, наприклад 18");
 // } else {
-//      if (age === 0) {
+//      if (userAge === 0) {
 //         console.log(userAge + " років");
-//     }  else if (age % 10 === 1 && age % 100 !== 11) {
-//         console.log(age + " рік");
+//     }  else if (userAge % 10 === 1 && userAge % 100 !== 11) {
+//         console.log(userAge + " рік");
 //     } else if (userAge % 10 >= 2 && userAge % 10 <= 4 && (userAge % 100 < 10 || userAge % 100 >= 20)) {
 //          console.log(userAge + " роки");
 //     } else {
