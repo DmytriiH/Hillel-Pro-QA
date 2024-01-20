@@ -21,16 +21,16 @@
 
 //                                 1 спосіб
 
-// var h = 6;
-// var s = '^';
-
-// for (var i = 1; i <= h; i++) {
+// function drawTriangle(h,s) {
+//     for (var i = 1; i <= h; i++) {
 //     var f = '  ';
 //     for (var j = 1; j <= i; j++) {
 //         f += s;
 //     }
 //     console.log(" " + f);
 // }
+// }
+//  drawTriangle(7,"*");
 
 //                                  2 спосіб
 
