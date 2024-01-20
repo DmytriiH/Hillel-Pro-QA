@@ -21,16 +21,29 @@
 
 //                                 1 спосіб
 
-// function drawTriangle(h,s) {
-//     for (var i = 1; i <= h; i++) {
-//     var f = '  ';
-//     for (var j = 1; j <= i; j++) {
-//         f += s;
+// function drawTriangle(h, s) {
+//     var i = 1;
+//     while (i <= h) {
+//         var row = '';
+//         var j = 1;
+//         while (j <= i) {
+//             row += s;
+//             j++;
+//         }
+//         switch (i) {
+//             case 1:
+//                 console.log(row);
+//                 break;
+//             default:
+//                 console.log("" + row);
+//                 break;
+//         }
+//         i++;
 //     }
-//     console.log(" " + f);
 // }
-// }
-//  drawTriangle(7,"*");
+// drawTriangle(4, "*");
+
+
 
 //                                  2 спосіб
 
