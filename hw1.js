@@ -7,14 +7,12 @@
 // Не використовувати isNaN/ Number.isNaN
 
 
-// var a = 4;
-// var b = " Це вже число";
+// var a = NaN;
 
-// if (isNaN(Number(a))) {
-//     console.log(a + " А це - не число");
-//     console.log(typeof a);
+// if (a === a) {
+//   console.log("Значення є NaN");
+//   console.log(typeof(a));
 // } else {
-//     a === !NaN
-//     console.log(typeof a);
-//     console.log(a + b);
+//   console.log("Значення не є NaN");
+//   console.log(typeof(a));  
 // }
