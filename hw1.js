@@ -43,7 +43,6 @@
 
 // // Виводимо інформацію про об'єкт
 // myObject.dataInfo();
-// myObject.getInfo();
 // myObject.durationsInfo();
 // console.log("Ім'я об'єкта: " + myObject.course + myObject.type);
 // console.log("Інформація про об'єкт durations: ", (myObject.durations.hours) + " годин" + " це " + (myObject.durations.numberOfLessons) + " лекцій");
@@ -51,6 +50,8 @@
 // console.log("Об'єкт durations:", myObject.durations);
 // console.log("Об'єкт data:", myObject.data);
 // console.log("Student об'єкта data: " + myObject.data.student);
+// myObject.getInfo();
 
 // // Додавання нової властивості
 // myObject.newProperty = 'Нова властивість!';
+// myObject.getInfo();
