@@ -75,22 +75,22 @@
 //     ]
 // };
 
-// function findValueByKey(companyName, obj = company, path = []) {
-//     for (const key in obj) {
-//         if (key === 'name' && obj[key] === companyName) {
-//             console.log('Інформація про компанію:', obj);
-//             return { company: obj, path: [...path, key] };
-//         } else if (typeof obj[key] === 'object') {
-//             const result = findValueByKey(companyName, obj[key], [...path, key]);
-//             if (result && result.company) {
-//                 return result;
-//             }
-//         }
-//     }
-// if (path.length === 0) {
-// console.log(`Компанію з назвою "${companyName}" не знайдено.`);
-// return null;
-//  }
-// }
-// findValueByKey('Клієнт 1.2.3');
-// findValueByKey('Клієнт 2.21');
+function findValueByKey(companyName, obj = company, path = []) {
+    for (const key in obj) {
+        if (key === 'name' && obj[key] === companyName) {
+            console.log('Інформація про компанію:', obj);
+            return { company: obj, path: [...path, key] };
+        } else if (typeof obj[key] === 'object') {
+            const result = findValueByKey(companyName, obj[key], [...path, key]);
+            if (result && result.company) {
+                return result;
+            }
+        }
+    }
+if (path.length === 0) {
+console.log(`Компанію з назвою "${companyName}" не знайдено.`);
+return null;
+ }
+}
+findValueByKey('Клієнт 1.2.3');
+findValueByKey('Клієнт 2.21');
